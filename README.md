@@ -47,7 +47,7 @@ pip install -r requirements.txt
 # long-term forecast
 bash ./scripts/long_term_forecast/ETT_script/PatchTST_AdvancedPatchEmbed_ETTh1.sh
 # short-term forecast
-bash ./scripts/short_term_forecast/PatchTST_AdvancedPatchEmbed_M4.sh
+bash ./scripts/short_term_forecast/PatchTST_AdvancedPatchEmbed_PEMS.sh
 ```
 
 4. Develop your own model.
