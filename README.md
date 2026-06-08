@@ -1,6 +1,8 @@
 # Hierarchical Patch Based Transformer with Learnable Weighted Loss Optimization for Multivariate Time Series Forecasting (HPBTF)
 Forecasting, a fundamental task in machine learning, involves predicting future values of a time series based on its historical behavior. This paper introduces a novel Hierarchical Patch Based Transformer with Learnable Weighted Loss Optimization (HPBTF) for multivariate time series forecasting. The proposed model leverages a hierarchical patch embedding strategy to capture both local and global temporal dependencies, significantly reducing sequence length and computational cost while maintaining high forecasting accuracy. Through a modular Transformer encoder equipped with flexible attention and channel-wise normalization, HPBTF efficiently models complex interdependencies among multiple variables. Additionally, the integration of a learnable weighted loss function enhances adaptability across various time series tasks such as forecasting, imputation, classification, and anomaly detection. Experimental results demonstrate that HPBTF outperforms traditional transformer-based models in scalability, versatility, speed up and predictive performance.
 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5400868
+
 # Time Series Library (TSLib)
 TSLib is an open-source library for deep learning researchers, especially for deep time series analysis.
 
