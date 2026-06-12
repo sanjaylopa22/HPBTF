@@ -52,6 +52,7 @@ bash ./scripts/short_term_forecast/PatchTST_AdvancedPatchEmbed_PEMS.sh
 - Include the newly added model in the `Exp_Basic.model_dict` of  `./exp/exp_basic.py`.
 - Create the corresponding scripts under the folder `./scripts`.
 
+## In this experiment, the file `PatchTST_AdvancedPatchEmbed.py` serves as the implementation of the main HPBTF model. Additionally, the scripts `HPBTF_Multiscale.py` and `HPBTF_wo_Patching.py` are used to conduct the ablation studies, evaluating the contributions of the multiscale module and the patching mechanism, respectively.
 
 ## Contact
 If you have any questions or suggestions, feel free to contact our maintenance team:
