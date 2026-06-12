@@ -6,7 +6,9 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5400868
 # Time Series Library (TSLib)
 TSLib is an open-source library for deep learning researchers, especially for deep time series analysis.
 
-We provide a neat code base to evaluate advanced deep time series models or develop your model, which covers five mainstream tasks: **long- and short-term forecasting**
+We provide a neat code base to evaluate advanced deep time series models or develop your model, which covers five mainstream tasks: **long- and short-term forecasting**.
+
+HPBTF is built directly on top of the Time Series Library (TSLib), an open-source benchmark from Tsinghua University that implements over 40 state-of-the-art models across five time series tasks using a unified codebase.
 
 ## Leaderboard for Time Series Analysis as Baseline Models
 
