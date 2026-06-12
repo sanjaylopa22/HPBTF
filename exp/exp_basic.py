@@ -1,6 +1,6 @@
 import os
 import torch
-from models import Autoformer, Transformer, TimesNet, Nonstationary_Transformer, DLinear, FEDformer, PatchTST_AdvancedPatchEmbed,\
+from models import Autoformer, Transformer, TimesNet, Nonstationary_Transformer, DLinear, FEDformer, PatchTST_AdvancedPatchEmbed, HPBTF_Multiscale, HPBTF_wo_Patching,\
     Informer, LightTS, Reformer, ETSformer, Pyraformer, PatchTST, MICN, Crossformer, FiLM, iTransformer, Transformer_Hybrid_Attention_HCD, PatchTST_HCD, \
     Koopa, TiDE, FreTS, TimeMixer, TSMixer, SegRNN, MambaSimple, TemporalFusionTransformer, SCINet, PAttn, TimeXer, EDformer, TimesNet,\
     WPMixer, MultiPatchFormer
@@ -39,11 +39,9 @@ class Exp_Basic(object):
             'TimeXer': TimeXer,
             'WPMixer': WPMixer,
             'MultiPatchFormer': MultiPatchFormer,
-            'EDformer':EDformer,
-            'Transformer_Hybrid_Attention_HCD':Transformer_Hybrid_Attention_HCD,
-            'PatchTST_HCD':PatchTST_HCD,
             'PatchTST_AdvancedPatchEmbed':PatchTST_AdvancedPatchEmbed,
-            'TimesNet':TimesNet,
+            'HPBTF_wo_Patching':HPBTF_wo_Patching,
+            'HPBTF_Multiscale':HPBTF_Multiscale,
         }
         if args.model == 'Mamba':
             print('Please make sure you have successfully installed mamba_ssm')
